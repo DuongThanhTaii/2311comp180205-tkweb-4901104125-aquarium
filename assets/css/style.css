@@ -1,0 +1,283 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* bg  */
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/img/ivan-volchenko-3.jpg);
+}
+
+.bg-2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/img/ivan-volchenko-4.jpg);
+}
+
+.bg-3 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/img/ivan-volchenko-8.jpg);
+}
+
+.bg-4 {
+  width: 100%;
+  height: 100vh;
+  background-image: url(/assets/img/ivan-volchenko-9.jpg);
+}
+/* bg  */
+/* diver  */
+.diver-1 img  {
+  position: absolute;
+  width: 100px;
+  left: 100px;
+  top: 400px;
+  animation-name: diver1;
+  animation-duration: 10s;
+  animation-timing-function: initial;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+.diver-2 img  {
+  position: absolute;
+  width: 100px;
+  left: 100px;
+  top: 400px;
+  animation-name: diver2;
+  animation-duration: 10s;
+  animation-timing-function: initial;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+.diver-3 img  {
+  position: absolute;
+  width: 100px;
+  left: 100px;
+  top: 400px;
+  animation-name: diver3;
+  animation-duration: 10s;
+  animation-timing-function: initial;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+.diver-11 img  {
+  position: absolute;
+  width: 100px;
+  left: 100px;
+  top: 400px;
+  animation-name: diver11;
+  animation-duration: 10s;
+  animation-timing-function: initial;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+/* diver  */
+
+/* shark */
+.shark {
+  position: absolute;
+  width: 80px;
+  left: 100px;
+  top: 400px;
+  animation-name: shark;
+  animation-duration: 6s;
+  animation-timing-function: initial;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+/* shark */
+
+/* turtle */
+.turtle {
+  position: absolute;
+  width: 80px;
+  left: 100px;
+  top: 400px;
+  animation-name: turtle;
+  animation-duration: 15s;
+  animation-timing-function: initial;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+/* turtle */
+
+/* ca  */
+.caxanh {
+  position: absolute;
+  width: 80px;
+  left: 100px;
+  /* top: 400px; */
+  animation-name: caxanh;
+  animation-duration: 15s;
+  animation-timing-function: initial;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+
+.cavang {
+  position: absolute;
+  width: 80px;
+  left: 100px;
+  top: 400px;
+  animation-name: cavang;
+  animation-duration: 17s;
+  animation-timing-function: initial;
+  animation-iteration-count: infinite;
+  animation-play-state: running;
+}
+/* ca  */
+
+/* animate  */
+@keyframes diver1 {
+  0% {left: 12px; top: 400px;}
+  20% {left: 300px; top: 400px;}
+  40% {left: 500px; top: 300px;}
+  50% {left: 800; top: 50px;}
+  60% {left: 600px; top: 100px;}
+  80% {left: 500px; top: 200px;}
+  100% {left: 100px; top: 400px; transform: scaleX(-1);}
+}
+
+@keyframes diver2 {
+  0% {left: 100px; top: 400px;}
+  20% {left: 300px; top: 400px;}
+  40% {left: 500px; top: 300px;}
+  50% {left: 100%; top: 50px;}
+  60% {left: 600px; top: 100px;}
+  80% {left: 500px; top: 200px;}
+  100% {left: 100px; top: 400px; transform: scaleX(-1);}
+}
+
+@keyframes diver3 {
+  0% {left: 0px; top: 40px;}
+  20% {left: 300px; top: 40px;}
+  40% {left: 50px; top:300px;}
+  50% {left: 100%; top: 40px;}
+  60% {left: 600px; top: 10px;}
+  80% {left: 500px; top: 20px;}
+  100% {left: 100px; top: 40px; transform: scaleX(-1);}
+}
+
+@keyframes diver11 {
+  0% {top: 20px;left: 50px;}
+  30% {top: 30px;left: 100px;}
+  50% {top: 10px;left: 300px;}
+  60% {top: 500px;left: 10px;}
+  70% {top: 46px;left: 90px;}
+  80% { top: 323px; left: 400px;}
+  100% {top: 20px; left: 50px; transform: scaleX(-1);}
+}
+
+@keyframes shark {
+  0% {left: 0px; top: 10px;}
+  20% {left: 10px; top: 40px;}
+  40% {left: 500px; top: 300px;}
+  50% {left: 100%; top: 20px;}
+  60% {left: 600px; top: 100px;}
+  80% {left: 500px; top: 200px;}
+  100% {left: 100px; top: 400px; transform: scaleX(-1);}
+}
+
+@keyframes turtle {
+  0% {left: 0px; top: 10px;}
+  
+  100% {left: 100%; top: 400px; right: 100%; transform: scaleX(-1);}
+}
+
+@keyframes caxanh {
+  
+
+0% {
+  left: 100px;
+  top: 300px;
+}
+
+20% {
+  left: 450px;
+  top: 300px;
+}
+
+50% {
+  left: 900px;
+  top: 250px;
+}
+
+60% {
+  left: 900px;
+  top: 300px;
+}
+
+80% {
+  left: 450px;
+  top: 300px;
+}
+100% {
+  left: 100px;
+  top: 300px;
+  transform: scaleX(-1);
+}
+}
+
+@keyframes cavang {
+  
+
+  0% {
+    left: 100px;
+    top: 300px;
+  }
+  
+  20% {
+    left: 450px;
+    top: 300px;
+  }
+  
+  50% {
+    left: 900px;
+    top: 250px;
+  }
+  
+  60% {
+    left: 900px;
+    top: 300px;
+  }
+  
+  80% {
+    left: 450px;
+    top: 300px;
+  }
+  100% {
+    left: 100px;
+    top: 300px;
+    transform: scaleX(-1);
+  }
+  }
+
+
+
+  /* styles.css */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: pink;
+  border: none;
+  border-radius: 9px;
+  margin-top: 16px;
+}
+
+.change-bg {
+  background-color: pink;
+  border: none;
+  border-radius: 9px;
+}
+
+button:hover {
+  color: white;
+  background-color: rgb(204, 144, 154);
+}
